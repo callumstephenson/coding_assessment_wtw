@@ -45,6 +45,7 @@ class triangle():
                     continue
                 else:
                     each[i] = each[i-1] + each[i]
+    
     def output_format(self):
         '''convert the triangle data into the lit format as required by the example output data'''
         output = self.title + ', '
